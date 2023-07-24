@@ -11,6 +11,8 @@ The study consisted of two experiments:
 The results show that k-smoothing can significantly improve the classifier's performance but keep increasing k value can only yield a slightly better performance. In this case, the best F1 score is 0.838 when k = 20(the biggest k value in our experiment).
 
 
+
+
 (2) Examining the impact of Byte Pair Encoding (BPE) on the classifier's performance.
 
 BPE did not lead to improved performance in this study, it reduced the vocabulary size(from 30948 to 9918) but negatively impacted the classifier's accuracy. The final accuracy of the BPE-NB model is 0.623, and the F1 score is 0.708, which is not as good as the baseline model.
